@@ -1,14 +1,14 @@
 // CircularPlaylist.java
 
-import java.util.ArrayList;       // Untuk list acak saat shuffle
+import java.util.ArrayList;       // Untuk list acak 
 import java.util.Collections;     // Untuk menggunakan Collections.shuffle()
 import java.util.List;
 
-// Kelas Song untuk menyimpan info lagu
+// Kelas untuk menyimpan info lagu
 class Song {
-    String title;     // Judul lagu
-    String artist;    // Nama artis
-    int duration;     // Durasi lagu dalam detik
+    String title;     // Judul lagu tipe: data string/text 
+    String artist;    // Nama artis : data string/text 
+    int duration;     // Durasi lagu dalam detik : tipe data integer/bilangan bulat 
     Song next;        // Pointer ke lagu berikutnya
 
     // Konstruktor
